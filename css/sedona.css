@@ -1,0 +1,394 @@
+body{
+    min-width:1220px;
+
+    font-weight: 600;
+    line-height: 28px;
+    font-family: "Roboto", "Arial", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.clearfix::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+h2{
+    margin-top:60px;
+    margin-bottom:37px;
+    text-align: center;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    padding-left:35px;
+    padding-right:35px;
+
+    font-family: "Roboto Regular", "Arial", sans-serif;;
+    font-size:14px;
+    line-height: 18px;
+}
+
+/*ШАПКА*/
+.main-navigation{
+    position:relative;
+    z-index:10;
+}
+.main-navigation ul{
+    margin:0;
+    padding:0;
+}
+.main-navigation li{
+    display:inline-block;
+    vertical-align: top;
+    min-width: 240px;
+    min-height:55px;
+    text-align:center;
+}
+
+.main-navigation a{
+    font-size:14px;
+    line-height: 55px;
+    text-decoration: none;
+    color:#000000;
+    font-family: "Roboto Regular", "Arial", sans-serif;
+}
+
+.main-navigation .left{
+    float:left;
+    max-width:500px;
+    min-height:55px;
+    text-align: left;
+}
+
+.main-navigation .right{
+    float:right;
+    max-width:500px;
+    min-height:55px;
+    text-align: right;
+}
+
+.main-navigation img{
+    position: absolute;
+    top:0px;
+    left:50%;
+    z-index:20;
+
+    margin-left:-77px;
+    padding:0;
+
+}
+
+.main-navigation a:hover{
+    color:#81b3d2;
+    cursor:pointer;
+}
+/*КОНЕЦ ШАПКИ*/
+
+/*ОСНОВНОЙ КОНТЕНТ*/
+.second-block{
+    margin-bottom:39px;
+}
+
+.secondary-images{
+    font-size:0px;
+    line-height:0px;
+}
+
+.secondary-images div{
+    display:inline-block;
+    vertical-align: top;
+
+    width: 400px;
+    min-height:260px;
+
+    background-color: #81b3d2;
+    font-size:24px;
+}
+
+.secondary-images h3{
+    margin: 55px 0px 0px 0px;
+    padding:0px;
+
+    line-height:24px;
+    color: #ffffff;
+}
+
+.secondary-images p{
+    margin:0px 0px 28px 0px;
+    padding:0px;
+    font-size:14px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.container .number{
+    margin-top: 28px;
+    margin-bottom: 28px;
+    font-size:18px;
+    font-style: italic;
+    line-height:18px;
+}
+
+.advantages .features-item{
+    float:left;
+
+    min-height: 330px;
+    width:400px;
+}
+
+.features-item div{
+    margin-top:60px;
+    margin-bottom:6px;
+    margin-left:auto;
+    margin-right:auto;
+    width:75px;
+    height:75px;
+}
+
+.features-item .building{
+    background: url('../img/sprite.png') no-repeat center;
+    background-position: -10px -106px;
+}
+
+.features-item .food{
+    background: url('../img/sprite.png') no-repeat center;
+    background-position: -10px -198px;
+}
+
+.features-item .souvenirs{
+    width:66px;
+    background: url('../img/sprite.png') no-repeat center;
+    background-position: -10px -10px;
+}
+
+.more-advantages{
+    background-color: #eeeeee;
+}
+
+.more-advantages .features-item{
+    float:left;
+
+    min-height: 256px;
+    width:400px;
+}
+
+.more-advantages h3{
+    padding:0px;
+    margin-top:50px;
+}
+
+.last-block{
+    position:relative;
+
+    margin-top:40px;
+    min-height: 363px;
+}
+
+.last-block p{
+    margin: 0px 0px 37px 0px;
+}
+
+.last-block h2{
+    margin:0px 0px 40px 0px;
+    padding-top: 50px;
+
+}
+
+.btn-popup{
+    box-sizing: border-box;
+    width:600px;
+    padding:35px 120px 35px 120px;
+    background-color: #766357;
+
+    font-size:22px;
+    line-height: 22px;
+    font-family: "Roboto Semi bold", "Arial", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btn-popup:hover{
+    background-color: #81b3d2;
+    cursor:pointer;
+}
+
+.hidden{
+    position:absolute;
+    z-index:20;
+    display:none;
+    box-sizing: border-box;
+    left:50%;
+    margin-left:-300px;
+    padding:55px 60px 55px 60px;
+
+    width: 600px;
+    min-height:350px;
+    background-color: #ffffff;
+}
+
+.hidden{
+    text-align: left;
+}
+
+.hidden input{
+    width:346px;
+    height:38px;
+    background-color: #f2f2f2;
+    margin-left:20px;
+}
+
+.hidden div{
+    margin:0px 0px 30px 0px;
+    font-size:14px;
+    vertical-align:middle;
+}
+
+.form div:nth-child(3){
+    font-size:0px;
+}
+.form div:nth-child(3) b{
+    font-size:14px;
+}
+
+.hidden .sign{
+    display:inline-block;
+
+    width:36px;
+    height:36px;
+
+    padding:0px;
+    border:0px;
+
+    font-size:14px;
+    background-color: #f2f2f2;
+
+}
+
+.hidden .minus{
+    margin-left:48px;
+}
+
+.hidden .plus{
+    margin-right:48px;
+}
+
+.hidden .plus:last-child{
+    margin-right:0px;
+}
+
+.hidden .sign-number{
+    display:inline-block;
+    box-sizing:border-box;
+    font-size:14px;
+    height:36px;
+    padding:4px;
+    text-align: center;
+    width:36px;
+    background-color: #f2f2f2;
+}
+
+.hidden .btn{
+    margin-top:25px;
+    width:100%;
+    box-sizing: border-box;
+    min-height:55px;
+    vertical-align:top;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color: #81b3d2;
+
+    color:#ffffff;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: "Roboto", "Arial", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hidden .btn:hover{
+    cursor:pointer;
+}
+
+/*POPUP*/
+
+.map{
+    position:relative;
+}
+
+.visible{
+    display:block;
+}
+
+/*КОНЕЦ ОСНОВНОГО КОНТЕНТА*/
+
+footer.container{
+    min-height:82px;
+    padding-top: 40px;
+}
+
+footer .visit-sedona{
+    float:left;
+    margin-left:130px;
+    margin-right:250px;
+}
+footer p{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin:0px;
+    font-size:20px;
+    line-height:48px;
+}
+
+footer .social{
+    float:left;
+    width: 150px;
+}
+
+.social div{
+    display:inline-block;
+    width:46px;
+    height:48px;
+}
+
+.social div:hover{
+    opacity:0.7;
+    cursor:pointer;
+}
+.social .twitter{
+    background: url('../img/sprite.png') no-repeat center;
+    background-position: -10px -356px;
+}
+
+.social .fb{
+    background: url('../img/sprite.png') no-repeat center;
+    background-position: -10px -288px;
+}
+
+.social .youtube{
+    background: url('../img/sprite.png') no-repeat center;
+    background-position: -10px -424px;
+}
+
+footer .made-by{
+    float:right;
+    margin-right:130px;
+}
+
+.made-by p{
+    font-size:14px;
+}
+
